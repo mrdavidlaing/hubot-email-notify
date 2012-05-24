@@ -1,2 +1,41 @@
-hubot-email-notify
-==================
+h1. Hubot-Email-Notify
+
+An hubot script to make campfire completely absent @mention notification system as awesome as the Hipchat one (https://www.hipchat.com/features)
+
+In Brief: receive email notifications whenever you get @mentioned in a room while being away.
+>>> if you mention @someone (using  @<username>) in a room while the mentioned user is offline, a notification email with the message, details and a link to the direct transcript will be sent to him via email.
+
+h2. Setup
+* Hubot
+* Campfire
+# Email account
+
+h2. Install dependencies
+* @npm install mail
+
+h2. Run Hubot
+
+#1 place this in your ~/.bash_profile
+# HUBOT_EMAIL_HOST 		 - The email host where you will send the email from (ex "smtp.gmail.com")
+# HUBOT_EMAIL_USERNAME   - The username of the email accoun that hubot will use to send email notification
+# HUBOT_EMAIL_PASSWORD   - The password for the email account 
+# HUBOT_EMAIL_USER_*     - Users email address (for example: HUBOT_EMAIL_USER_NICK="thanks@beyounic.com")
+# HUBOT_GITHUB_TOKEN     - GH OAuth2 Token, (if you using the campfire adaptor you should have it already there)
+# HUBOT_CAMPFIRE_ACCOUNT - See campfire adapter
+
+
+#2 install node, npm and clone hubot
+brew install node
+curl http://npmjs.org/install.sh | sh
+clone git://github.com/github/hubot.git
+
+#3 go to the hubot/scripts folder and get the hubot-spotify scripts in there
+https://github.com/nickbalestra/hubot-email-notify
+
+#4 install the dependencies for hubot-spotify
+npm install mail
+
+#5 run hubot with campfire
+bin/hubot -a campfire -n Hubot
+
+#6 Receive email notifications whenever you get @mentioned in a room while you not there.
