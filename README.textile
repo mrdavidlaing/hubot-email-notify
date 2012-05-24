@@ -29,10 +29,10 @@ brew install node
 curl http://npmjs.org/install.sh | sh
 clone git://github.com/github/hubot.git
 
-#3 go to the hubot/scripts folder and get the hubot-spotify scripts in there
+#3 go to the hubot/scripts folder and get the email-notify scripts in there
 https://github.com/nickbalestra/hubot-email-notify
 
-#4 install the dependencies for hubot-spotify
+#4 install the dependencies for hubot-email-notify
 npm install mail
 
 #5 run hubot with campfire
