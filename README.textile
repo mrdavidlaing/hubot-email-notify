@@ -6,7 +6,7 @@ In Brief: receive email notifications whenever you get @mentioned in a room whil
 If you mention @someone (using  @<username>) in a room while the mentioned user is offline, a notification email with the message, details and a link to the direct transcript will be sent to him via email.
 
 h2. Setup
-* Hubot -> http://hithub.com/hubot
+* Hubot -> http://github.com/github/hubot
 * Campfire
 # Email account
 
