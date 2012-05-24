@@ -3,7 +3,7 @@ h1. Hubot-Email-Notify
 An hubot script to make campfire completely absent @mention notification system as awesome as the Hipchat one (https://www.hipchat.com/features)
 
 In Brief: receive email notifications whenever you get @mentioned in a room while being away.
->>> if you mention @someone (using  @<username>) in a room while the mentioned user is offline, a notification email with the message, details and a link to the direct transcript will be sent to him via email.
+If you mention @someone (using  @<username>) in a room while the mentioned user is offline, a notification email with the message, details and a link to the direct transcript will be sent to him via email.
 
 h2. Setup
 * Hubot
